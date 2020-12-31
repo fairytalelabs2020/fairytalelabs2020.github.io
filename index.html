@@ -105,17 +105,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 
 
+<style type="text/css">
+	.clearfix:after, .clearfix:before{display:table;content:" ";}
+	.clearfix:after {clear:both;content:"";display:block;height:0;visibility:visible;}
+	.box{overflow:hidden;}
+	.parent{position:relative;left:50%;float:left;}
+	.child{position:relative;left:-50%;float:left;}
+	.item{float:left;}
+	.item:not(:last-child){margin-right:20px;}
+	ul li{list-style-type:none;}
+</style>
 
-<div class=”box” >
-	<style>
+<div class="box" >
+<!-- 	<style>
 	.box{position:relative;width:100%;text-align:center;overflow:hidden;}
-   	.box1{float:right; position:relative;right:50%;margin: 5%;}
-    .box2{float:left; position:relative;left:50%;margin: 5%;}
-    </style>
+   	.box1{float:left; position:relative;width:30%;margin：0 auto;}
+    .box2{float:right; position:relative;width:70%;margin：0 auto;}
+    </style> -->
+    <div class="parent" >
+	<ul class="child">
+		<li class="item">
+			<a href="https://apps.apple.com/">
+    			<img alt="" src="images\appleimg.png"/> 
+    		</a>
+		</li>
+		<li class="item">
+			<a href="https://play.google.com/">
+    			<img alt="" src="images\googleimg.png"/> 
+    		</a>
+		</li>
+	</ul>
+	</div>
 
 
-   	<div class="box1">
-    	<a href="https://apps.apple.com/">
+<!--    	<div class="box1">
+		<a href="https://apps.apple.com/">
     		<img alt="" src="images\appleimg.png"/> 
     	</a>
 	</div>
@@ -123,7 +147,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<a href="https://play.google.com/">
     		<img alt="" src="images\googleimg.png"/> 
     	</a>
-	</div>
+	</div> -->
 </div>
 
  
